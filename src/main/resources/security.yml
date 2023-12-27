@@ -1,0 +1,4 @@
+roles:
+  - ROLE_USER:
+    authorities:
+      - ROLE_API_DOCS

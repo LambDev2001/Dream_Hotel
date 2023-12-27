@@ -1,0 +1,20 @@
+server:
+  port: 9999
+  servlet:
+    context-path: /lam
+
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url:  jdbc:postgresql://localhost:5432/store
+    username: postgres
+    password: lam123
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+

@@ -1,0 +1,7 @@
+server.port=7777
+  
+  #name service
+server.servlet.context-path=/lam
+
+spring.jpa.show-sql=false
+spring.jpa.properties.hibernate.format_sql= false
